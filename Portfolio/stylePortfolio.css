@@ -1,0 +1,121 @@
+.section-hero{/*É uma seção geral e ela tem o tam da tela, dentro dela tem outras*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FEFEFE;
+}
+
+.barra-navegacao{
+    display: flex;
+    width: 1217px;
+    height: 72px;
+    flex-direction: row;
+    align-items: baseline;/*Pra que fiquem na mesma linha*/
+    justify-content: space-between;/* pra que fiquem separados, distantes uns dos outros*/
+    margin-top: 50px;
+}
+
+.titulo-navegacao{
+    color: #71270d;
+    font-size: 40px;
+    letter-spacing: -0.015rem;
+    font-weight: bold;
+}
+
+.links-navegacao{
+    color: #71270d;
+    font-size: 20px;
+    letter-spacing: -0.015rem;
+    margin-right: 80px; /*distância entre os itens de navegacao*/
+    
+}
+
+.botao-contato-navegacao{
+    width: 126px;
+    height: 56px;
+    border-radius: 16px;
+    background-color: #819682;
+    border-width: 0px; 
+    color: #FEFEFE;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+}
+.hero-info{/*Div das informações*/
+    display: flex;
+    flex-direction: row;/*Pq nesse caso temos dois blocos (um texto e outro img)*/
+    align-items:center;
+    justify-content:space-around;
+    width: 1216px;
+    height: 594px;
+    padding-top: 64px;
+}
+.hero-info-title{/*esse então é somente do h1 dessa segunda parte*/
+    font-size: 38px;
+    font-weight: bold;
+    color: #0e571e;
+    margin: 2px;/*pra diminuir a margem entre o titulo e o paragrafo q de praxe já é definido*/
+}
+.hero-info-subtitle{
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 100%;/*Largura pra acompanhar o titulo*/  
+    margin-top: 16px;/*Margem do titulo ao subt*/
+    
+}
+.hero-info-image{
+    height: 350px;
+    width: 270px;
+    border-radius: 40px;
+    border-color: #819682;
+    border-width: 4px;
+    border-style: solid;
+}
+h2{/*esse então é somente do h2*/
+    font-size: 38px;
+    font-weight: bold;
+    color: #570f0e;
+    margin: 2px;/*pra diminuir a margem entre o titulo e o paragrafo q de praxe já é definido*/
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #498e50;
+    margin: 2px;/*pra diminuir a margem entre o titulo e o paragrafo q de praxe já é definido*/
+    margin-top: 25px;
+    text-align:justify;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #498e50;
+    margin: 10px;/*pra diminuir a margem entre o titulo e o paragrafo q de praxe já é definido*/
+    margin-top: 25px;
+    text-align:justify;
+}
+.section-content{/*s*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 50vh;
+    background-color: #FEFEFE;
+    text-align: center;
+    margin-top: 50px;
+}
+.section-content p{
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 75%;/*Largura do texto dentro da página*/  
+    margin-top: 30px;/*Margem do titulo ao subt*/
+    
+}
+a{
+    color:#10537a;
+    font-size: 18px;
+    margin-block: auto;
+}
